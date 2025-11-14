@@ -107,3 +107,8 @@ Useful when:
 
 ## 👨‍💻 Author
 Srikanth Muthuvel Ganthimathi
+
+## 📜 License
+
+This project is for educational and research purposes.
+You may modify or extend the design freely.
