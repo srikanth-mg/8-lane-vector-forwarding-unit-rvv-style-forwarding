@@ -67,10 +67,10 @@ Outputs lane-ready mask bit
 
 The full selection is:
 
-if (wb_match  && wb_valid_mask[l]) sel_data = wb_data;
-else if (mem_match && mem_valid_mask[l]) sel_data = mem_data;
-else if (ex_match  && ex_valid_mask[l])  sel_data = ex_data;
-else if (vrf_ready_mask[l])              sel_data = vrf_data;
+- if (wb_match  && wb_valid_mask[l]) sel_data = wb_data;
+- else if (mem_match && mem_valid_mask[l]) sel_data = mem_data;
+- else if (ex_match  && ex_valid_mask[l])  sel_data = ex_data;
+- else if (vrf_ready_mask[l])              sel_data = vrf_data;
 
 ## 🧪 Simulation & Testing
 Build using Verilator & run the simulation
