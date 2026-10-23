@@ -135,7 +135,7 @@ module vpu_forward_unit_stimulus
     wb_data_r[6*EW +: EW] = 64'h0000_0000_0000_0776;
     #5;
 
-    // 8) Change version → forwards no longer match; only VRF lanes 0..3 ready
+    // 8) Change version -> forwards no longer match; only VRF lanes 0..3 ready
     src_tag_r = {5'd19, 4'd6};
     vrf_ready_mask_r = 8'b0000_1111;
     for (i = 0; i < LANES; i = i + 1) begin
